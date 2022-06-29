@@ -14,6 +14,12 @@
 		285D72F7285E06C900B8E238 /* projectDhc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 285D72F5285E06C900B8E238 /* projectDhc.xcdatamodeld */; };
 		285D72F9285E06CB00B8E238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285D72F8285E06CB00B8E238 /* Assets.xcassets */; };
 		285D72FC285E06CB00B8E238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285D72FA285E06CB00B8E238 /* LaunchScreen.storyboard */; };
+		7B313823286C984B003DAE6F /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B313822286C984A003DAE6F /* Search.storyboard */; };
+		7B313825286C986D003DAE6F /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B313824286C986D003DAE6F /* MyPage.storyboard */; };
+		7B313827286C98A2003DAE6F /* Community.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B313826286C98A2003DAE6F /* Community.storyboard */; };
+		7B313829286C990C003DAE6F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B313828286C990C003DAE6F /* SearchViewController.swift */; };
+		7B31382B286C992F003DAE6F /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B31382A286C992F003DAE6F /* MyPageViewController.swift */; };
+		7B31382D286C9949003DAE6F /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B31382C286C9949003DAE6F /* CommunityViewController.swift */; };
 		7BD51D612860BF3300D03462 /* Reservation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD51D602860BF3300D03462 /* Reservation.storyboard */; };
 		7BD51D632860BFDF00D03462 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD51D622860BFDF00D03462 /* ReservationViewController.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +34,12 @@
 		285D72F8285E06CB00B8E238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		285D72FB285E06CB00B8E238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		285D72FD285E06CB00B8E238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B313822286C984A003DAE6F /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		7B313824286C986D003DAE6F /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
+		7B313826286C98A2003DAE6F /* Community.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Community.storyboard; sourceTree = "<group>"; };
+		7B313828286C990C003DAE6F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7B31382A286C992F003DAE6F /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		7B31382C286C9949003DAE6F /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		7BD51D602860BF3300D03462 /* Reservation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reservation.storyboard; sourceTree = "<group>"; };
 		7BD51D622860BFDF00D03462 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,16 +74,18 @@
 		285D72EB285E06C900B8E238 /* projectDhc */ = {
 			isa = PBXGroup;
 			children = (
+				285D72FD285E06CB00B8E238 /* Info.plist */,
 				285D72EC285E06C900B8E238 /* AppDelegate.swift */,
-				285D72EE285E06C900B8E238 /* SceneDelegate.swift */,
-				285D72F0285E06C900B8E238 /* ViewController.swift */,
+				7B31382C286C9949003DAE6F /* CommunityViewController.swift */,
+				7B31382A286C992F003DAE6F /* MyPageViewController.swift */,
 				7BD51D622860BFDF00D03462 /* ReservationViewController.swift */,
-				7BD51D5F2860BED300D03462 /* View */,
-				285D72F2285E06C900B8E238 /* Main.storyboard */,
+				285D72EE285E06C900B8E238 /* SceneDelegate.swift */,
+				7B313828286C990C003DAE6F /* SearchViewController.swift */,
+				285D72F0285E06C900B8E238 /* ViewController.swift */,
 				285D72F8285E06CB00B8E238 /* Assets.xcassets */,
 				285D72FA285E06CB00B8E238 /* LaunchScreen.storyboard */,
-				285D72FD285E06CB00B8E238 /* Info.plist */,
 				285D72F5285E06C900B8E238 /* projectDhc.xcdatamodeld */,
+				7BD51D5F2860BED300D03462 /* View */,
 			);
 			path = projectDhc;
 			sourceTree = "<group>";
@@ -79,7 +93,11 @@
 		7BD51D5F2860BED300D03462 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				285D72F2285E06C900B8E238 /* Main.storyboard */,
 				7BD51D602860BF3300D03462 /* Reservation.storyboard */,
+				7B313822286C984A003DAE6F /* Search.storyboard */,
+				7B313824286C986D003DAE6F /* MyPage.storyboard */,
+				7B313826286C98A2003DAE6F /* Community.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,9 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				285D72FC285E06CB00B8E238 /* LaunchScreen.storyboard in Resources */,
+				7B313825286C986D003DAE6F /* MyPage.storyboard in Resources */,
 				285D72F9285E06CB00B8E238 /* Assets.xcassets in Resources */,
 				285D72F4285E06C900B8E238 /* Main.storyboard in Resources */,
 				7BD51D612860BF3300D03462 /* Reservation.storyboard in Resources */,
+				7B313827286C98A2003DAE6F /* Community.storyboard in Resources */,
+				7B313823286C984B003DAE6F /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,8 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B313829286C990C003DAE6F /* SearchViewController.swift in Sources */,
 				7BD51D632860BFDF00D03462 /* ReservationViewController.swift in Sources */,
+				7B31382B286C992F003DAE6F /* MyPageViewController.swift in Sources */,
 				285D72F1285E06C900B8E238 /* ViewController.swift in Sources */,
+				7B31382D286C9949003DAE6F /* CommunityViewController.swift in Sources */,
 				285D72F7285E06C900B8E238 /* projectDhc.xcdatamodeld in Sources */,
 				285D72ED285E06C900B8E238 /* AppDelegate.swift in Sources */,
 				285D72EF285E06C900B8E238 /* SceneDelegate.swift in Sources */,
