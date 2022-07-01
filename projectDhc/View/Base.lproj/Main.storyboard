@@ -84,7 +84,7 @@
         <scene sceneID="hOC-cD-DJr">
             <objects>
                 <viewControllerPlaceholder storyboardName="Community" referencedIdentifier="CommunityViewController" id="iVY-KC-QPb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="VhM-bw-Obf"/>
+                    <tabBarItem key="tabBarItem" id="VhM-bw-Obf"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eJG-9i-LJX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -106,6 +106,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="crQ-mc-xfU" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gt5-zQ-cq5">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
