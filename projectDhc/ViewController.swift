@@ -14,7 +14,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func testBtn(_ sender: Any) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if let viewcontroller = storyboard.instantiateViewController(withIdentifier: "SecondViewController") as? SecondViewController {
+        self.navigationController?.pushViewController(viewcontroller, animated: false)
+        }
+    }
+    
     @IBAction func googleLogin(_ sender: Any) {
         print("google")
     }
