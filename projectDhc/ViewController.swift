@@ -13,16 +13,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
-    @IBAction func googleLogin(_ sender: Any) {
-        print("google")
-    }
-    
-    @IBAction func appleLogin(_ sender: Any) {
-        print("apple")
-    }
-    
     
     @IBOutlet weak var titleLabel: UILabel!
     
