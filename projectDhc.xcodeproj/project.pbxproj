@@ -14,6 +14,7 @@
 		285D72F7285E06C900B8E238 /* projectDhc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 285D72F5285E06C900B8E238 /* projectDhc.xcdatamodeld */; };
 		285D72F9285E06CB00B8E238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285D72F8285E06CB00B8E238 /* Assets.xcassets */; };
 		285D72FC285E06CB00B8E238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285D72FA285E06CB00B8E238 /* LaunchScreen.storyboard */; };
+		28DD2CA2288042E3003C134D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DD2CA1288042E3003C134D /* TabBarController.swift */; };
 		7B313823286C984B003DAE6F /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B313822286C984A003DAE6F /* Search.storyboard */; };
 		7B313825286C986D003DAE6F /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B313824286C986D003DAE6F /* MyPage.storyboard */; };
 		7B313827286C98A2003DAE6F /* Community.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B313826286C98A2003DAE6F /* Community.storyboard */; };
@@ -36,6 +37,7 @@
 		285D72F8285E06CB00B8E238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		285D72FB285E06CB00B8E238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		285D72FD285E06CB00B8E238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DD2CA1288042E3003C134D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		7B313822286C984A003DAE6F /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		7B313824286C986D003DAE6F /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
 		7B313826286C98A2003DAE6F /* Community.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Community.storyboard; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				285D72FD285E06CB00B8E238 /* Info.plist */,
 				285D72EC285E06C900B8E238 /* AppDelegate.swift */,
+				28DD2CA1288042E3003C134D /* TabBarController.swift */,
 				7B31382C286C9949003DAE6F /* CommunityViewController.swift */,
 				7B31382A286C992F003DAE6F /* MyPageViewController.swift */,
 				7BD51D622860BFDF00D03462 /* ReservationViewController.swift */,
@@ -189,6 +192,7 @@
 				7BD51D632860BFDF00D03462 /* ReservationViewController.swift in Sources */,
 				7B31382B286C992F003DAE6F /* MyPageViewController.swift in Sources */,
 				285D72F1285E06C900B8E238 /* ViewController.swift in Sources */,
+				28DD2CA2288042E3003C134D /* TabBarController.swift in Sources */,
 				7B31382D286C9949003DAE6F /* CommunityViewController.swift in Sources */,
 				285D72F7285E06C900B8E238 /* projectDhc.xcdatamodeld in Sources */,
 				285D72ED285E06C900B8E238 /* AppDelegate.swift in Sources */,
